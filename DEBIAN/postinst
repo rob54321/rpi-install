@@ -2,3 +2,11 @@
 # for my raspberry pi
 # post install: to be run after init-rpi-first has been run
 
+# install geany config and keybindings
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany/geany.conf /home/robert/.config/geany/
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany/keybindings.conf /home/robert/.config/geany/
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany/black.Perl.conf /home/robert/.config/geany/colorschemes
+
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.gitconfig /home/robert/
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.git-credentials /home/robert/
+exit 0
