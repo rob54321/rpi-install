@@ -1,0 +1,4 @@
+#! /bin/bash
+# for my raspberry pi
+# post install: to be run after init-rpi-first has been run
+
