@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.01
+Version: 1.02
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -9,9 +9,6 @@ Recommends: build-essential,
 	perl-doc,
 	perl-tk,
 	libdevel-ptkdb-perl,
-	mate-desktop-environment,
-	mate-core,
-	mate-desktop-environment-extras,
 	findutils,
 	dpkg-dev,
 	debmirror,
@@ -37,6 +34,9 @@ Recommends: build-essential,
 	default-jdk,
         default-jdk-doc,
         geany-plugins,
+	mate-desktop-environment,
+	mate-core,
+	mate-desktop-environment-extras,
         rclone
 Architecture: arm64
 Description: This package installs all files for raspberry pi

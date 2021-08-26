@@ -10,4 +10,4 @@ sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany/black.Perl
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.gitconfig /home/robert/
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.git-credentials /home/robert/
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone/rclone.config /home/robert/.config/rclone/
-exit 0
+exit
