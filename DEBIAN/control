@@ -4,7 +4,7 @@ Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: subversion
-Depends: mate-desktop-environment, mate-core, mate-desktop-environment-extras,
+Depends: mate-desktop-environment, mate-core, mate-desktop-environment-extras
 
 Recommends: build-essential,
 	perlprimer-doc,
