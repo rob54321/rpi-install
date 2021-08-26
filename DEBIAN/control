@@ -1,9 +1,11 @@
 Package: rpi-install
-Version: 1.02
+Version: 1.03
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: subversion
+Depends: mate-desktop-environment, mate-core, mate-desktop-environment-extras,
+
 Recommends: build-essential,
 	perlprimer-doc,
 	perl-doc,
@@ -34,9 +36,6 @@ Recommends: build-essential,
 	default-jdk,
         default-jdk-doc,
         geany-plugins,
-	mate-desktop-environment,
-	mate-core,
-	mate-desktop-environment-extras,
         rclone
 Architecture: arm64
 Description: This package installs all files for raspberry pi
