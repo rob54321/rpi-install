@@ -7,5 +7,5 @@ sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robe
 
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.gitconfig /home/robert/.gitconfig
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.git-credentials /home/robert/.git-credentials
-sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone/rclone.conf /home/robert/.config/rclone/rclone.conf
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone /home/robert/.config/rclone
 exit
