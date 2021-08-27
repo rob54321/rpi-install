@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.06
+Version: 1.07
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -35,7 +35,6 @@ Recommends: build-essential,
 	git-man,
 	git,
 	geany,
-        geany-common,
 	default-jdk,
         default-jdk-doc,
         geany-plugins,
