@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.04
+Version: 1.05
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -29,7 +29,9 @@ Recommends: build-essential,
 	konsole,
 	kdiff3,
 	kompare,
-	git-all,
+	git-doc,
+	git-man,
+	git,
 	geany,
         geany-common,
 	default-jdk,
