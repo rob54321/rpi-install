@@ -1,11 +1,13 @@
 Package: rpi-install
-Version: 1.05
+Version: 1.06
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: subversion
-Depends: mate-desktop-environment, mate-core, mate-desktop-environment-extras
 Recommends: build-essential,
+	mate-desktop-environment,
+	mate-core,
+	mate-desktop-environment-extras,
 	perlprimer-doc,
 	perl-doc,
 	perl-tk,
