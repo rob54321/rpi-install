@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.10
+Version: 1.11
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -38,6 +38,8 @@ Recommends: build-essential,
 	default-jdk,
         default-jdk-doc,
         geany-plugins,
-        rclone
+        rclone,
+        veracrypt,
+        mountblv
 Architecture: arm64
 Description: This package installs all files for raspberry pi
