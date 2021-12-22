@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.11
+Version: 1.12
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -23,11 +23,6 @@ Recommends: build-essential,
 	ibritish,
 	ispell,
 	builddebiantree,
-	okular,
-	dolphin,
-        kio-extras,
-        dolphin-plugins,
-        kdesdk-dolphin-plugins,
 	konsole,
 	kdiff3,
 	kompare,
