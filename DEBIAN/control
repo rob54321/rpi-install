@@ -1,9 +1,9 @@
 Package: rpi-install
-Version: 1.12
+Version: 1.13
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
-Pre-depends: subversion
+Pre-depends: subversion, xz-utils
 Recommends: build-essential,
 	mate-desktop-environment,
 	mate-core,
