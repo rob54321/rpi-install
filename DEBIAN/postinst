@@ -11,4 +11,26 @@ sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone /home/rob
 svn export --force file:///mnt/svn/root/my-linux/scripts/mirrorrpi /usr/local/bin/mirrorrpi
 svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpikeys.sh /usr/local/bin/rpikeys.sh
 svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpitemp /usr/local/bin/rpitemp
-exit
+
+# install x windows themes, backgrounds, icons and config for user robert
+# files are stored in /mnt/debhome/xconfig - themes.tar.xz, icons.tar.xz, backgrounds.tar config.tar.xz
+# the link /mnt/debhome -> to root directory
+# to install themes
+if test -f /mnt/dehome/xconfig/themes.tar.xz; then
+	# extract to /usr/share
+	tar --xz -xf /mnt/dehome/xconfig/themes.tar.xz -C /usr/share/
+fi
+# extract icons
+if test -f /mnt/debhome/xconfig/icons.tar.xz; then
+	tar --xz -xf /mnt/debhome/xconfig/icons.tar.xz -C /usr/share/
+fi
+# extract backgrounds
+# to ~/.local/share/
+if test -f /mnt/debhome/xconfig/backgrounds.tar; then
+	tar -xf /mnt/debhome/xconfig/backgrounds.tar -C /home/robert/.local/share/
+fi
+# extract dconf and mate for config
+# -> .config
+if test -f /mnt/debhome/xconfig/config.tar.xz; then
+	tar --xz -xf /mnt/debhome/xconfig/config.tar.xz -C /home/robert
+fi
