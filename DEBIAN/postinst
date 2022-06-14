@@ -16,7 +16,7 @@ svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpitemp /usr/local/bin
 # files are stored in /mnt/debhome/xconfig - themes.tar.xz, icons.tar.xz, backgrounds.tar config.tar.xz
 # the link /mnt/debhome -> to root directory
 # to install themes
-if test -f /mnt/dehome/xconfig/themes.tar.xz; then
+if test -f /mnt/debhome/xconfig/themes.tar.xz; then
 	# extract to /usr/share
 	tar --xz -xf /mnt/debhome/xconfig/themes.tar.xz -C /usr/share/
 fi
