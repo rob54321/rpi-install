@@ -1,0 +1,3 @@
+#!/bin/bash
+# set the x-session-manager back to default
+update-alternatives --auto x-session-manager
