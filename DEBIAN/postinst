@@ -36,3 +36,7 @@ fi
 if test -f /mnt/debhome/xconfig/config.tar.xz; then
 	tar --xz -xf /mnt/debhome/xconfig/config.tar.xz -C /home/robert
 fi
+
+# setup mate-session as default
+update-alternatives --set x-session-manager /usr/bin/mate-session
+
