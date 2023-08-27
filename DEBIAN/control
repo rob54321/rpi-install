@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.18
+Version: 1.19
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -35,8 +35,6 @@ Recommends: build-essential,
         default-jdk-doc,
         geany-plugins,
         rclone,
-        veracrypt,
-        mountblv,
         build-essential,
         firefox-esr
 Architecture: arm64

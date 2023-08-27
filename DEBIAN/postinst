@@ -1,13 +1,10 @@
 #! /bin/bash
 # for my raspberry pi
-# post install: to be run after init-rpi-first has been run
+# post install: to be run after initialise-linux has been run
 
 # install geany config and keybindings
 sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robert/.config/geany
 
-sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.gitconfig /home/robert/.gitconfig
-sudo -u robert svn export --force file:///mnt/svn/root/my-linux/git/.git-credentials /home/robert/.git-credentials
-sudo -u robert svn export --force file:///mnt/svn/root/my-linux/rclone /home/robert/.config/rclone
 svn export --force file:///mnt/svn/root/my-linux/scripts/mirrorrpi /usr/local/bin/mirrorrpi
 svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpikeys.sh /usr/local/bin/rpikeys.sh
 svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpitemp /usr/local/bin/rpitemp
