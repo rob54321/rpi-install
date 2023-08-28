@@ -1,12 +1,41 @@
 Package: rpi-install
-Version: 1.21
+Version: 1.22
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: xz-utils
-Depends: build-essential,
-	mate-desktop-environment,
+Depends: mate-desktop-environment,
 	mate-core,
 	mate-desktop-environment-extras
+
+Recommends: build-essential,
+        subversion,
+	perlprimer-doc,
+	perl-doc,
+	perl-tk,
+	libdevel-ptkdb-perl,
+	findutils,
+	dpkg-dev,
+	debmirror,
+	rsync,
+	ssh,
+	synaptic,
+	libreoffice-calc,
+	man2html,
+	ibritish,
+	ispell,
+	builddebiantree,
+	konsole,
+	kdiff3,
+	kompare,
+	git-doc,
+	git-man,
+	git,
+	geany,
+	default-jdk,
+        default-jdk-doc,
+        geany-plugins,
+        rclone,
+        firefox-esr
 Architecture: arm64
 Description: This package installs all files for raspberry pi
