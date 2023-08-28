@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.20
+Version: 1.21
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -7,6 +7,6 @@ Pre-depends: xz-utils
 Depends: build-essential,
 	mate-desktop-environment,
 	mate-core,
-	mate-desktop-environment-extras,
+	mate-desktop-environment-extras
 Architecture: arm64
 Description: This package installs all files for raspberry pi
