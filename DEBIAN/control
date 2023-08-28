@@ -7,7 +7,6 @@ Pre-depends: xz-utils
 Depends: mate-desktop-environment,
 	mate-core,
 	mate-desktop-environment-extras
-
 Recommends: build-essential,
         subversion,
 	perlprimer-doc,
