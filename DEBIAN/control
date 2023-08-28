@@ -1,41 +1,12 @@
 Package: rpi-install
-Version: 1.19
+Version: 1.20
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: xz-utils
-Recommends: build-essential,
-        subversion,
+Depends: build-essential,
 	mate-desktop-environment,
 	mate-core,
 	mate-desktop-environment-extras,
-	perlprimer-doc,
-	perl-doc,
-	perl-tk,
-	libdevel-ptkdb-perl,
-	findutils,
-	dpkg-dev,
-	debmirror,
-	rsync,
-	ssh,
-	synaptic,
-	libreoffice-calc,
-	man2html,
-	ibritish,
-	ispell,
-	builddebiantree,
-	konsole,
-	kdiff3,
-	kompare,
-	git-doc,
-	git-man,
-	git,
-	geany,
-	default-jdk,
-        default-jdk-doc,
-        geany-plugins,
-        rclone,
-        build-essential,
-        firefox-esr
 Architecture: arm64
 Description: This package installs all files for raspberry pi
