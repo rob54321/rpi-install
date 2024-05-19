@@ -28,8 +28,8 @@ if test -f /mnt/debhome/xconfig/backgrounds.tar; then
 fi
 # extract dconf and mate for config
 # -> .config
-if test -f /mnt/debhome/xconfig/config.tar.xz; then
-	tar --xz -xf /mnt/debhome/xconfig/config.tar.xz -C /home/robert
+if test -f /mnt/debhome/xconfig/rpixconfig.tar.xz; then
+	tar --xz -xf /mnt/debhome/xconfig/rpixconfig.tar.xz -C /home/robert
 fi
 
 # setup mate-session as default
