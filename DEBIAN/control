@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.24
+Version: 1.25
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -35,6 +35,8 @@ Recommends: build-essential,
         default-jdk-doc,
         geany-plugins,
         rclone,
-        firefox-esr
+        firefox-esr,
+        network-manager-gnome,
+        gh
 Architecture: arm64
 Description: This package installs all files for raspberry pi
