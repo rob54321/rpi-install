@@ -10,7 +10,7 @@ svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpikeys.sh /usr/local/
 svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpitemp /usr/local/bin/rpitemp
 
 # export geany config
-sudo -c robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robert/.config/geany
+sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robert/.config/geany
 
 # install x windows themes, backgrounds, icons and config for user robert
 # files are stored in /mnt/debhome/xconfig - themes.tar.xz, icons.tar.xz, backgrounds.tar config.tar.xz
