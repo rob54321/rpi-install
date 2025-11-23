@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.1.1
+Version: 1.1.2
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -8,7 +8,6 @@ Depends: mate-desktop-environment,
 	mate-core,
 	mate-desktop-environment-extras
 Recommends: build-essential,
-        subversion,
 	perlprimer-doc,
 	perl-doc,
 	perl-tk,
@@ -26,9 +25,6 @@ Recommends: build-essential,
 	konsole,
 	kdiff3,
 	kompare,
-	git-doc,
-	git-man,
-	git,
 	default-jdk,
         default-jdk-doc,
         firefox-esr,
