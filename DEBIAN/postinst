@@ -14,17 +14,6 @@ fi
 if test -f /mnt/debhome/xconfig/icons.tar.xz; then
 	test -d /usr/share/icons/Tela-circle-dark || tar --xz -xf /mnt/debhome/xconfig/icons.tar.xz -C /usr/share/
 fi
-# extract backgrounds
-# to ~/.local/share/
-if test -f /mnt/debhome/xconfig/backgrounds.tar; then
-	test -d /home/robert/.local/share/backgrounds || tar -xf /mnt/debhome/xconfig/backgrounds.tar -C /home/robert/.local/share/
-fi
-# extract dconf and mate for config
-# -> .config
-if test -f /mnt/debhome/xconfig/rpixconfig.tar.xz; then
-	tar --xz -xf /mnt/debhome/xconfig/rpixconfig.tar.xz -C /home/robert
-fi
-
 # setup mate-session as default
 update-alternatives --set x-session-manager /usr/bin/mate-session
 

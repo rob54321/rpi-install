@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.1.0
+Version: 1.1.1
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -32,7 +32,6 @@ Recommends: build-essential,
 	default-jdk,
         default-jdk-doc,
         firefox-esr,
-        network-manager-gnome,
         libreoffice-gtk3
 Architecture: arm64
 Description: This package installs all files for raspberry pi
