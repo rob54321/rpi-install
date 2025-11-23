@@ -2,13 +2,6 @@
 # for my raspberry pi
 # post install: to be run after initialise-linux has been run
 
-# install geany config and keybindings
-sudo -u robert svn export --force file:///mnt/svn/root/my-linux/geany /home/robert/.config/geany
-
-svn export --force file:///mnt/svn/root/my-linux/scripts/mirrorrpi /usr/local/bin/mirrorrpi
-svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpikeys.sh /usr/local/bin/rpikeys.sh
-svn export --force file:///mnt/svn/root/my-linux/init-rpi/rpitemp /usr/local/bin/rpitemp
-
 # install x windows themes, backgrounds, icons and config for user robert
 # files are stored in /mnt/debhome/xconfig - themes.tar.xz, icons.tar.xz, backgrounds.tar config.tar.xz
 # the link /mnt/debhome -> to root directory
