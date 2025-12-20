@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.1.2
+Version: 1.1.3
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -28,6 +28,12 @@ Recommends: build-essential,
 	default-jdk,
         default-jdk-doc,
         firefox-esr,
-        libreoffice-gtk3
+        libreoffice-gtk3,
+        printer-driver-all,
+        pi-printer-support,
+        printer-driver-brlaser,
+        printer-driver-postscript-hp,
+        system-config-printer-common,
+        system-config-printer-udev
 Architecture: arm64
 Description: This package installs all files for raspberry pi
