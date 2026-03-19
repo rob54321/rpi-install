@@ -1,12 +1,14 @@
 Package: rpi-install
-Version: 1.1.3
+Version: 1.1.4
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: xz-utils
 Depends: mate-desktop-environment,
 	mate-core,
-	mate-desktop-environment-extras
+	mate-desktop-environment-extras,
+	network-manager,
+	network-manager-gnome
 Recommends: build-essential,
 	perlprimer-doc,
 	perl-doc,
