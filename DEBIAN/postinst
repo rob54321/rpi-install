@@ -16,4 +16,3 @@ if test -f /mnt/debhome/xconfig/icons.tar.xz; then
 fi
 # setup mate-session as default
 update-alternatives --set x-session-manager /usr/bin/cinnamon-session
-
