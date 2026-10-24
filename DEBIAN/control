@@ -1,12 +1,11 @@
 Package: rpi-install
-Version: 1.1.6
+Version: 1.1.7
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: xz-utils
-Depends: mate-desktop-environment,
-	mate-core,
-	mate-desktop-environment-extras,
+Depends: cinnamon,
+	cinnamon-desktop-environment,
 	network-manager,
 	network-manager-gnome
 Recommends: build-essential,
@@ -40,4 +39,4 @@ Recommends: build-essential,
 	printer-driver-cups-pdf,
 	openjdk-17-jdk
 Architecture: arm64
-Description: This package installs all files for raspberry pi
+Description: This package installs all files for raspberry pi including cinnamon desktop

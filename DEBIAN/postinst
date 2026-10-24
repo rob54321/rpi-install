@@ -15,5 +15,5 @@ if test -f /mnt/debhome/xconfig/icons.tar.xz; then
 	test -d /usr/share/icons/Tela-circle-dark || tar --xz -xf /mnt/debhome/xconfig/icons.tar.xz -C /usr/share/
 fi
 # setup mate-session as default
-update-alternatives --set x-session-manager /usr/bin/mate-session
+update-alternatives --set x-session-manager /usr/bin/cinnamon-session
 
