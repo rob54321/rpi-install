@@ -1,5 +1,5 @@
 Package: rpi-install
-Version: 1.1.7
+Version: 1.1.8
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
@@ -7,8 +7,8 @@ Pre-depends: xz-utils
 Depends: cinnamon,
 	cinnamon-desktop-environment,
 	network-manager,
-	network-manager-gnome
-Recommends: build-essential,
+	network-manager-gnome,
+	build-essential,
 	perlprimer-doc,
 	perl-doc,
 	perl-tk,
