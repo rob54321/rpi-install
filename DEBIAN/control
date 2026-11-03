@@ -1,11 +1,10 @@
 Package: rpi-install
-Version: 1.1.8
+Version: 1.2.0
 Maintainer: Robert Key <robkey@mighty.co.za>
 Priority: optional
 Section: myown
 Pre-depends: xz-utils
 Depends: cinnamon,
-	cinnamon-desktop-environment,
 	network-manager,
 	network-manager-gnome,
 	build-essential,
