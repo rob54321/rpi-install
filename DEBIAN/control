@@ -41,6 +41,7 @@ Depends: cinnamon,
 	npm,
 	kate,
 	color-picker,
-	code
+	code,
+	libsecret-tools
 Architecture: arm64
-Description: This package installs all files for raspberry pi including cinnamon desktop
+Description: This package installs all files for raspberry pi including cinnamon desktop vs code etc
